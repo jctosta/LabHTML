@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>DtpFormServlet</servlet-name>
+  	<display-name>DtpFormServlet</display-name>
+  	<description></description>
+  	<servlet-class>br.gov.dataprev.DtpFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DtpFormServlet</servlet-name>
+  	<url-pattern>/DtpFormServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
